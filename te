@@ -1,0 +1,22 @@
+{
+  "success": true,
+  "user": {
+    "_id": 124204,
+    "email": "tube@gmail.com",
+    "active": "active",
+    "username": "Rekon45",
+    "rank": "newcomer",
+    "role": "user",
+    "status": "active",
+    "referral_id": "4904029288",
+    "secret_key_enabled": 0,
+    "refferalEarning": "0.0000",
+    "balance": "9.51952",
+    "wallet": null,
+    "earning": "0.0000",
+    "cartnumber": 1,
+    "inbox": 0,
+    "ticket": 0,
+    "reports": null
+  }
+}
