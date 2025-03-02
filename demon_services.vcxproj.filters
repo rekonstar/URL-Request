@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="UE5">
+      <UniqueIdentifier>{2a47fc18-41ac-47e4-b77d-29cb7a1b51d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\dependencies">
+      <UniqueIdentifier>{f55f7d10-54a9-48f0-a9bc-27d9f1d04977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\dependencies\communication">
+      <UniqueIdentifier>{2f018c4a-d152-43ea-a921-54d43be95b25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\dependencies\framework">
+      <UniqueIdentifier>{46737a12-1c14-4fdf-b487-fa3c12d77225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\dependencies\librarys">
+      <UniqueIdentifier>{232ea4f2-37ef-49d5-94f2-3a37dcbc7f90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\dependencies\protection">
+      <UniqueIdentifier>{d2882b68-6f31-4e02-aeb1-09f70aa54485}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\impl">
+      <UniqueIdentifier>{d554c822-c27a-474d-aae9-cbb0a4af6f16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\impl\game">
+      <UniqueIdentifier>{5467b627-594a-4e59-a417-c53b538d28dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\impl\mouse">
+      <UniqueIdentifier>{c5f1c72f-25c8-4970-8f85-130496516de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\impl\render">
+      <UniqueIdentifier>{b2daaab7-d666-4a62-a3b5-22cf398c8a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\dependencies\framework\backend">
+      <UniqueIdentifier>{490fb142-7c45-4820-a39e-c941a4bdb97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UE5\Keyauth">
+      <UniqueIdentifier>{8dbe0edf-8e96-4de2-85b5-1f757c633b5e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dependencies\font.hpp">
+      <Filter>UE5\dependencies</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\communication\communication.hpp">
+      <Filter>UE5\dependencies\communication</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protection\lazyimporter.hpp">
+      <Filter>UE5\dependencies\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\protection\skcrypt.hpp">
+      <Filter>UE5\dependencies\protection</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\game\game.hpp">
+      <Filter>UE5\impl\game</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\game\ue4.hpp">
+      <Filter>UE5\impl\game</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\game\update.hpp">
+      <Filter>UE5\impl\game</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\mouse\mouse.hpp">
+      <Filter>UE5\impl\mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\render\render.hpp">
+      <Filter>UE5\impl\render</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\globals.hpp">
+      <Filter>UE5\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\hexarray.hpp">
+      <Filter>UE5\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="impl\include.hpp">
+      <Filter>UE5\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="keyauth\auth.hpp">
+      <Filter>UE5\Keyauth</Filter>
+    </ClInclude>
+    <ClInclude Include="keyauth\json.hpp">
+      <Filter>UE5\Keyauth</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\imgui.h">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\imgui_internal.h">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\imstb_rectpack.h">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\imstb_textedit.h">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\imstb_truetype.h">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\blur.hpp">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\blur_x.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\blur_y.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\Fonts.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\images.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\imgui_settings.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\imconfig.h">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\imgui_impl_dx11.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+    <ClInclude Include="dependencies\framework\backend\imgui_impl_win32.h">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="impl\game\game.cpp">
+      <Filter>UE5\impl\game</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\mouse\mouse.cpp">
+      <Filter>UE5\impl\mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="impl\render\render.cpp">
+      <Filter>UE5\impl\render</Filter>
+    </ClCompile>
+    <ClCompile Include="communication.cpp">
+      <Filter>UE5\dependencies\communication</Filter>
+    </ClCompile>
+    <ClCompile Include="entry.cpp">
+      <Filter>UE5</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\imgui.cpp">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\imgui_demo.cpp">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\imgui_draw.cpp">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\imgui_tables.cpp">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\imgui_widgets.cpp">
+      <Filter>UE5\dependencies\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\backend\blur.cpp">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\backend\imgui_impl_dx11.cpp">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="dependencies\framework\backend\imgui_impl_win32.cpp">
+      <Filter>UE5\dependencies\framework\backend</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>UE5\impl</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\librarys\d3d11.lib">
+      <Filter>UE5\dependencies\librarys</Filter>
+    </Library>
+    <Library Include="keyauth\library_x64.lib">
+      <Filter>UE5\Keyauth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
